@@ -4,6 +4,7 @@ This plugin gives the facilty to make that top button generate and body scroll o
 <code>
 $('a#backtotop').topScroll();
 </code>
+<br>
 Defualt opitions are:
 <code>
       position: 'fixed', //can be changed to absolute, relative, static<br>
