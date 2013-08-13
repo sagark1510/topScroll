@@ -28,6 +28,7 @@
 					padding: setting.padding,
 					bottom:setting.bottom,
 					right: setting.right,
+					display: 'none'
 				});
 			}else {
 				me.addClass(setting.class)	
@@ -43,6 +44,5 @@
 		function scrolling(){
 			$('html, body').animate({scrollTop:setting.scrVal}, setting.speed);		
 		}
-		
 	};
 }(jQuery));
